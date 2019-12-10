@@ -1,10 +1,11 @@
 package _06_for_loop_gauntlet;
 
-public class ForLoopGuantlet_4 {
+public class ForLoopGauntlet_6 {
 public static void main(String[] args) {
-	for (int i = 1; i < 100; i++) {
-		if (i % 2 == 1) {
+	for (int i = 0; i < 778; i++) {
+		if (i % 7 == 0) {
 			System.out.println(i);
 		}
+	}
 }
-}}
+}
